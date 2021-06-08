@@ -1,0 +1,177 @@
+*{
+           padding : 0; margin : 0;  box-sizing : border-box;
+
+
+}
+header{
+             background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.10)), url('books.jpg');
+             width : 100%;
+             height : 100vh;
+             backgroud-size : cover;
+
+
+}
+nav{
+         width: 100%;
+         height : 15vh;
+
+         justify-content : space-between;
+         display : flex;
+         align-items : center;
+         text-transform : uppercase;
+         color : white;
+         background-color : rgba(0,0,0,0.5);
+
+
+}
+nav .menu{
+             display: flex;
+             justify-content : space-around;
+             width : 40%;
+            text-decoration : none;
+}
+nav .logo{
+               display : flex;
+               align-item : center;
+               justify-content : space-around;
+               width:25%;
+               font-size: bold;
+}
+nav .menu a{
+
+                text-decoration : none;
+                color: white;
+                font-size: bold;
+                width : 40%;
+                position: relative;
+}
+
+main{
+            width: 100%; height :85vh;
+             text-align : center;
+             align-items : center;
+            color : white;
+              display : flex;
+          justify-content : center;
+}
+section h2{
+             font-size : 30px;
+             font-weight:700;
+             font-family: cursive;sa
+             letter-spacing: 1px;
+             text-transform: uppercase;
+              text-shadow : 4px 6px 1px black;
+
+}
+
+section h1{
+             font-size : 30px;
+             font-weight:500;
+             letter-spacing: 1px;
+             text-transform: uppercase;
+             text-shadow: 2px 1px 1px black;
+             margin : 30px 0 20px 0;
+
+}
+.change_contents:after{
+          content:'';
+          animation : changetext 10s infinite linear;
+          color:#00b894;
+          font-size : 50px;
+          text-shadow : 9px 1px 1px 3px black;
+
+
+}
+@keyframes changetext{
+              0%{content:"ENGINEERING";}
+              20%{content:"FICTION";}
+              40%{content:"HORROR";}
+              60%{content:"MATH";}
+              80%{content:"NOVEL";}
+              100%{content:"MEDICAL";}
+
+}
+
+
+
+section p{
+             font-size : 15px;
+             font-weight:800;
+             letter-spacing: 1px;
+             text-transform: uppercase;
+             text-shadow: 1px 1px 1px black;
+               margin : 20px 0 90px 0;
+            font-size: bold;s
+}
+section a{
+
+           font-size: 20px;
+           font-weight: 500;
+           color: black;
+           font-transform: uppercase;
+               padding :13px 30px;
+          outline: none;
+          border-radius : 4px;
+          text-shadow: 1px 1px 1px black;
+          margin : 20px 0 20px 0;
+          text-decoration:none;
+          transition: all .5s ease;
+         margin : 90px 0 80px 0;
+
+}
+section .btone{
+                   background : orange;
+                  color : black;
+                  text-shadow: 1px 1px 1px black;
+                  overflow: hidden;
+
+}
+
+
+}
+.btone:hover {
+                  background : blue;
+                  color: white;
+                
+
+}
+
+
+
+.menu a:hover{
+               color : orange;
+ }
+
+
+.about{
+            width:100%;
+            height :100vh;
+              background : linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.10)), url('book.jpg');
+             backgroud-size : cover;
+            color:white;
+             font-size: 30px;
+           font-weight: 500;
+           letter-spacing: 2px;
+             text-transform: uppercase;
+              text-shadow : 4px 1px 1px black;
+            justify-content : space-around;
+           display : flex;
+           align-text: center;
+
+
+}
+
+#head{
+
+      margin: 25px 50px 100px 500px;
+      font-size:30px;
+}
+
+#col1{
+              width:600px;
+              height:150px;
+               float:left;
+               background-color:pink;
+               overflow:scroll;
+            margin: 25px 50px 100px 500px;
+}
